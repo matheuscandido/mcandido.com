@@ -1,0 +1,35 @@
+baseURL = "https://example.com"
+title = "Matheus Candido"
+theme = "etch"
+languageCode = "en-US"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  description = "Personal Website"
+  copyright = "Copyright © 2020 Matheus Candido"
+  dark = "auto"
+  highlight = true
+
+[menu]
+  [[menu.main]]
+    identifier = "works"
+    name = "Works"
+    title = "works"
+    url = "/works"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 20
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allows HTML in Markdown
+  unsafe = true

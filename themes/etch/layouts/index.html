@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<div  id="home-pic">
+<img src="/me.jpg"/>
+</div>
+
+<div id="home-motto">
+<h1><span>Well-made software scale businesses, grow crops and take us to the moon.</span></h1>
+</div>
+
+{{ .Content }}
+{{- partial "posts.html" . -}}
+{{ end }}
