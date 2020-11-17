@@ -10,4 +10,4 @@ Finishing my graduation on Computer Engineering.
 
 I have done __freelance work__ with full-stack development, WordPress development, design-to-CSS implementation, API integration, legacy software maintenance, and server administration.
 
-Get in contact at m@mcandido.com
+Get in contact at matheusoc@live.com

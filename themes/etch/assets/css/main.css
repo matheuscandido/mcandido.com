@@ -37,6 +37,7 @@ body {
 #home-motto h1 span{
     color: var(--main-blue);
     background: #FEDB8B;
+    line-height: 42px;
 }
 
 
