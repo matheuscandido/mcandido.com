@@ -10,4 +10,6 @@ I have done __freelance work__ with full-stack development, WordPress developmen
 
 Finishing my graduation on Computer Engineering.
 
-Get in contact at matheusoc@live.com
+🛠️ You can check some of my [works and projects here](/works).
+
+💬 Or get in contact at [matheusoc@live.com](mailto:matheusoc@live.com).
