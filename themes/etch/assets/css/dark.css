@@ -10,6 +10,10 @@ body {
     background: #121212;
 }
 
+#home-motto h1 span{
+    background: #b18010;
+}
+
 header#banner a {
     color: #e0e0e0;
     text-decoration: none;

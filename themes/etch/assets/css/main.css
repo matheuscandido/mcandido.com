@@ -111,6 +111,8 @@ main#content h6 {
 main#content h3 {
     font-size: 19px;
     font-size: 1.9rem;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 main#content h1 + p,
