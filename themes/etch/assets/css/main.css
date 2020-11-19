@@ -50,6 +50,9 @@ body {
 
 header#banner {
     margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header#banner a {
