@@ -10,6 +10,8 @@ I have done __freelance work__ with full-stack development, WordPress developmen
 
 Finishing my graduation on Computer Engineering.
 
+👉 My full _curriculum vitae_ is on [LinkedIn](https://www.linkedin.com/in/matheusoc/).
+
 🛠️ You can check some of my [works and projects here](/works).
 
 💬 Or get in contact at [matheusoc@live.com](mailto:matheusoc@live.com).
