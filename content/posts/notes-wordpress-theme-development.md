@@ -15,7 +15,7 @@ These are notes for future self-reference on WordPress development. I'm publishi
 Widgets are very useful for providing a drag-and-drop user interface for simillar self-contained components. 
 
 First register the new sidebar on `functions.php`:
-```
+```php
 function register_ebooks_sidebar() {
 	register_sidebar(array(
 		'name'          => 'eBooks Sidebar',
@@ -26,14 +26,14 @@ add_action( 'widgets_init', 'register_ebooks_sidebar' );
 ```
 
 Then place the sidebar on its place in any page wanted (`page-something.php`):
-```
+```php
 <?php if ( is_active_sidebar( 'ebooks_sidebar' ) ) : ?>
     <?php dynamic_sidebar( 'ebooks_sidebar' ); ?>
 <?php endif; ?>
 ```
 
 Create the custom widget defining a class inherited from `WP_Widget`. (It needs to be required or declared on `functions.php` to work):
-```
+```php
 class Ebook_Widget extends WP_Widget {
 
 	/**
@@ -180,7 +180,7 @@ class Ebook_Widget extends WP_Widget {
 WordPress themes can have parameters to be edited on the Customize page. All its set up can be done on `functions.php` or requiring a custom PHP file there.
 
 First, register the customization fields on the appropriate hook:
-```
+```php
 function my_theme_customizer($wp_customize){
     // All the sections, settings and inputs will be called here.
 }
@@ -190,7 +190,7 @@ add_action('customzie_register', my_theme_customizer);
 All the code bellow will be added to this customizer function declared.
 
 Add a section:
-```
+```php
 $wp_customize->add_section( 'section_name' , array(
     'title'      => __( 'Visible Section Name', 'mytheme' ),
     'priority'   => 30,
@@ -198,7 +198,7 @@ $wp_customize->add_section( 'section_name' , array(
 ```
 
 Add a setting:
-```
+```php
 $wp_customize->add_setting( 'header_textcolor' , array(
     'default'   => '#000000',
     'transport' => 'refresh',
@@ -206,7 +206,7 @@ $wp_customize->add_setting( 'header_textcolor' , array(
 ```
 
 And then, add a control to change the setting
-```
+```php
 $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'header_textcolor', array(
 	'label'      => __( 'Header Color', 'mytheme' ),
 	'section'    => 'section_name',
