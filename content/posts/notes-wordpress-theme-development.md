@@ -8,7 +8,7 @@ tags = [
 ]
 +++
 
-These are notes for future self-reference on WordPress development. I'm publishing because they can be useful for concentrating all the information in a single place.
+These are notes for future self-reference on WordPress development. I'm publishing because they can be useful for concentrating all the information about many topics in a single place.
 
 ## Widgets
 
